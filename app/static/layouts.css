@@ -1,0 +1,78 @@
+/* Body */
+body {
+ 
+    color: #121212; /* Text color */
+    background-color: #fff;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #121212; /* Dark background color for the navbar */
+    border-bottom: 2px solid #121212; /* Blue border at the bottom */
+}
+
+/* Navbar Brand and Links */
+.navbar-brand, .nav-link {
+    color: black; /* Text color for brand and links */
+    font-weight: bold;
+    padding: 15px 20px; /* Add spacing around text */
+}
+
+/* Navbar Toggler Icon */
+.navbar-toggler-icon {
+    background-color: black; /* White background for the toggler icon */
+}
+
+/* Navbar Items Container */
+.collapse.navbar-collapse {
+    justify-content: flex-end; /* Right-align navbar items */
+}
+
+/* Navbar Items */
+.navbar-nav {
+    list-style: none;
+    display: flex;
+}
+
+.nav-item {
+    margin: 0 10px; /* Add spacing between items */
+    transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+.nav-item a {
+    text-decoration: none;
+}
+
+/* Active and Hover States */
+.nav-item.active, .nav-item:hover {
+    background-color: #007BFF; /* Blue background for active/hover items */
+}
+
+/* Dropdown Menu */
+.dropdown-menu {
+    background-color: #121212; /* Dark background color for the dropdown */
+}
+
+/* Dropdown Item */
+.dropdown-item {
+    color: #fff; /* Text color for dropdown items */
+}
+
+/* Dropdown Item Hover Effect */
+.dropdown-item:hover {
+    background-color: #333; /* Darker background for dropdown items on hover */
+}
+
+#message {
+    position: fixed;
+    top: 20px; /* Adjust the top position as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 25vw; /* Adjust the width as needed */
+    z-index: 2000;
+}
+
+#inner-message {
+    margin: 0 auto;
+    text-align: center;
+}
